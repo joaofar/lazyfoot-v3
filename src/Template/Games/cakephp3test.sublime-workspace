@@ -1,0 +1,728 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"games",
+				"gamesPlayed"
+			],
+			[
+				"gam",
+				"gamesPlayed"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"ID",
+				"id"
+			],
+			[
+				"f",
+				"fun\tfunction …"
+			],
+			[
+				"side",
+				"sidebarStats"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"goals",
+				"goals_average_limit"
+			],
+			[
+				"array",
+				"array_reverse"
+			],
+			[
+				"array_s",
+				"array_shift"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/cakephp3test/src/Template/Layout/default.ctp",
+			"settings":
+			{
+				"buffer_size": 1553,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/cakephp3test/src/Controller/GamesController.php",
+			"settings":
+			{
+				"buffer_size": 3662,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/cakephp3test/src/Template/Element/sidebar.ctp",
+			"settings":
+			{
+				"buffer_size": 2181,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/cakephp3test/src/View/AppView.php",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.ctp",
+			"settings":
+			{
+				"buffer_size": 1229,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/cakephp3test/src/Controller/AppController.php",
+			"settings":
+			{
+				"buffer_size": 6909,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/cakephp3test/src/Model/Table/PlayersTable.php",
+			"settings":
+			{
+				"buffer_size": 9605,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/cakephp3test/src/Model/Table/RatingsTable.php",
+			"settings":
+			{
+				"buffer_size": 3282,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\nnamespace App\\Model\\Entity;\n\nuse Cake\\ORM\\Entity;\n\n/**\n * Team Entity\n *\n * @property int $id\n * @property int $game_id\n * @property int $is_winner\n * @property int $score\n * @property \\Cake\\I18n\\Time $created\n * @property \\Cake\\I18n\\Time $modified\n *\n * @property \\App\\Model\\Entity\\Game $game\n * @property \\App\\Model\\Entity\\Assist[] $assists\n * @property \\App\\Model\\Entity\\Goal[] $goals\n * @property \\App\\Model\\Entity\\Rating[] $ratings\n * @property \\App\\Model\\Entity\\Player[] $players\n */\nclass Team extends Entity\n{\n\n    /**\n     * Fields that can be mass assigned using newEntity() or patchEntity().\n     *\n     * Note that when '*' is set to true, this allows all unspecified fields to\n     * be mass assigned. For security purposes, it is advised to set '*' to false\n     * (or remove it), and explicitly make individual fields accessible as needed.\n     *\n     * @var array\n     */\n    protected $_accessible = [\n        '*' => true,\n        'id' => false\n    ];\n\n}\n",
+			"file": "/C/xampp/htdocs/cakephp3test/src/Model/Entity/Team.php",
+			"file_size": 1131,
+			"file_write_time": 131243129786500602,
+			"settings":
+			{
+				"buffer_size": 978,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/cakephp3test/composer.json",
+			"settings":
+			{
+				"buffer_size": 1810,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/cakephp3test",
+		"/C/xampp/htdocs/cakephp3test/src",
+		"/C/xampp/htdocs/cakephp3test/src/Controller",
+		"/C/xampp/htdocs/cakephp3test/src/Model",
+		"/C/xampp/htdocs/cakephp3test/src/Model/Entity",
+		"/C/xampp/htdocs/cakephp3test/src/Model/Table",
+		"/C/xampp/htdocs/cakephp3test/src/Template",
+		"/C/xampp/htdocs/cakephp3test/src/View"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/cakephp3test/src/Model/Entity/Rating.php",
+		"/C/xampp/htdocs/cakephp3test/src/Model/Entity/Player.php",
+		"/C/xampp/htdocs/cakephp3test/src/Model/Table/GamesTable.php",
+		"/C/xampp/htdocs/lazyfoot/app/Model/Game.php",
+		"/C/xampp/htdocs/lazyfoot/app/Model/Player.php",
+		"/C/Users/micro/AppData/Local/Temp/tmp8AB0.tmp.txt",
+		"/C/xampp/htdocs/cakephp3test/src/Controller/PlayersController.php",
+		"/C/xampp/htdocs/cakephp3test/src/Template/Games/backup/index.ctp",
+		"/C/xampp/htdocs/cakephp3test/src/View/AppView.php",
+		"/C/xampp/htdocs/lazyfoot/app/Controller/PlayersController.php",
+		"/C/xampp/htdocs/lazyfoot/app/Controller/GamesController.php",
+		"/C/xampp/htdocs/lazyfoot/app/View/Games/index.ctp",
+		"/C/xampp/htdocs/cakephp3test/src/Model/Entity/Game.php",
+		"/C/xampp/htdocs/cakephp3test/src/Template/Games/index.ctp",
+		"/C/xampp/htdocs/lazyfoot/app/Config/database.php",
+		"/C/xampp/htdocs/cakephp3test/config/routes.php",
+		"/C/xampp/htdocs/lazyfoot_upgrade/app/Model/Goal.php",
+		"/C/xampp/htdocs/cakephp3test/src/Model/Entity/_backup/Invite.php",
+		"/C/xampp/htdocs/cakephp3test/src/Model/Entity/_backup/Game.php",
+		"/C/xampp/htdocs/lazyfoot_upgrade/app/Model/Game.php",
+		"/C/xampp/htdocs/lazyfoot_upgrade/app/Controller/GamesController.php",
+		"/C/xampp/htdocs/cakephp3test/src/Controller/GamesController.php",
+		"/C/xampp/htdocs/cakephp3test/src/View/Helper/JsHelper.php",
+		"/C/xampp/htdocs/cakephp3test/src/Controller/Component/SessionComponent.php",
+		"/C/xampp/htdocs/lazyfoot/app/Model/Rating.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/cakephp3test/composer.json",
+		"/C/xampp/htdocs/cakephp3test/config/app.php",
+		"/C/xampp/htdocs/cakephp3test/src/Model/Table/PlayersTable.php",
+		"/C/xampp/htdocs/cakephp3test/src/Template/Games/view.ctp",
+		"/C/Users/micro/AppData/Local/Temp/fz3temp-2/bootstrap.php",
+		"/C/xampp/htdocs/cakephp3test/src/Controller/_backup/GamesController.php",
+		"/C/xampp/htdocs/cakephp3test/src/Template/Layout/default_backup.ctp",
+		"/C/xampp/htdocs/cakephp3test/src/Template/Layout/default.ctp",
+		"/C/xampp/htdocs/lazyfoot/app/Config/bootstrap.php",
+		"/C/xampp/htdocs/cakephp3test/config/bootstrap.php",
+		"/C/xampp/htdocs/lazyfoot/app/View/Players/view.ctp",
+		"/C/xampp/htdocs/lazyfoot/app/webroot/sass/styles.scss",
+		"/C/xampp/htdocs/lazyfoot/app/webroot/js/lazyfoot.js",
+		"/C/xampp/htdocs/lazyfoot/app/View/Layouts/default.ctp",
+		"/C/Users/micro/AppData/Local/Temp/fz3temp-2/PlayersController.php",
+		"/C/xampp/htdocs/lazyfoot/lib/Cake/VERSION.txt",
+		"/C/xampp/htdocs/lazyfoot/index.php",
+		"/C/xampp/htdocs/lazyfoot/app/Controller/RatingsController.php",
+		"/C/xampp/htdocs/lazyfoot/app/Model/Team.php",
+		"/C/xampp/htdocs/lazyfoot/app/Controller/TeamsController.php",
+		"/C/xampp/htdocs/lazyfoot/app/View/Games/submit_score.ctp",
+		"/C/Program Files (x86)/SABnzbd/README.txt",
+		"/C/Users/micro/AppData/Local/Temp/fz3temp-2/default.ctp",
+		"/C/xampp/htdocs/lazyfoot/lazyfoot.sublime-project",
+		"/C/Users/micro/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/C/Users/micro/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/xampp/htdocs/lazyfoot/lib/Cake/Model/Datasource/DboSource.php",
+		"/C/xampp/htdocs/lazyfoot/lib/Cake/Controller/Controller.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/E/___SOFTWARE___/_AUDIO/Avid Sibelius 8.3.0 Build 62 Multilingual + Crack [SadeemPC]/Instructions !!!.txt",
+		"/E/___SOFTWARE___/_AUDIO/Avid Sibelius 8.3.0 Build 62 Multilingual + Crack [SadeemPC]/SadeemPC.com.txt",
+		"/D/Dropbox/DIY/Muffsy Phono Preamp/README.txt",
+		"/C/Users/micro/Downloads/[PES17] PTE Patch 2017 2/[PES17] PTE Patch 2017 2.0/##TUTORIAL##READ##.txt",
+		"/C/Users/micro/AppData/Local/Temp/fz3temp-2/database.php.default",
+		"/C/Users/micro/AppData/Local/Temp/fz3temp-2/database.php",
+		"/E/___TORRENTS___/Photoshop.CC.2015.5/Adobe.Photoshop.CC.2015.5.u1.x86-x64.RU-EN/m0nkrus.nfo",
+		"/E/___TORRENTS___/Photoshop.CC.2015.5/Adobe.Photoshop.CC.2015.5.u1.x86-x64.RU-EN/Crack/readme.txt",
+		"/E/___TORRENTS___/Photoshop.CC.2015.5/Adobe.Photoshop.CC.2015.5.u1.x86-x64.RU-EN/Crack/x-force.nfo",
+		"/E/___TORRENTS___/3DMGAME-Pro.Evolution.Soccer.2017-3DM/3DMGAME-Pro.Evolution.Soccer.2017-3DM/Pro Evolution Soccer 2017/说明.txt",
+		"/D/Dropbox/Backup/GP106.rom",
+		"/C/Users/micro/AppData/Local/Temp/fz3temp-1/database.php.default",
+		"/C/Users/micro/AppData/Local/Temp/fz3temp-1/database.php",
+		"/D/Dropbox/Backup/SpeedFan/speedfansens.cfg",
+		"/D/Dropbox/Backup/SpeedFan/speedfanevents.cfg",
+		"/D/Dropbox/Backup/SpeedFan/speedfan.txt",
+		"/C/Users/micro/Downloads/[PES16] PTE PATCH 6 0 Final Version/[PES16] PTE PATCH 6.0 Final Version/##TUTORIAL##READ##.txt",
+		"/C/Program Files (x86)/Roni Music/Amazing Slow Downer/Order.txt",
+		"/D/Dropbox/Projectos/João Farinha/MJ JF Rider 2016 (piano).odt",
+		"/D/Dropbox/Apps/_WIN/Amazing Slow Downer 3.4.9 for Windows/Serial.txt",
+		"/D/Dropbox/Backup/CouchPotato/settings.conf"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"chronos",
+			"ext-intl",
+			"ignore",
+			"find",
+			"zend_exte",
+			"zend",
+			"xdebug",
+			"find",
+			"sidebar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/cakephp3test/src/Template/Layout/default.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1277,
+								1277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 567.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/cakephp3test/src/Controller/GamesController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 297.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/cakephp3test/src/Template/Element/sidebar.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1196,
+								1196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/cakephp3test/src/View/AppView.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1029,
+								1029
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.ctp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/xampp/htdocs/cakephp3test/src/Controller/AppController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1582,
+								1582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/xampp/htdocs/cakephp3test/src/Model/Table/PlayersTable.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8230,
+								8230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7290.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/xampp/htdocs/cakephp3test/src/Model/Table/RatingsTable.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3279,
+								3279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2430.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/xampp/htdocs/cakephp3test/src/Model/Entity/Team.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								975,
+								975
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/xampp/htdocs/cakephp3test/composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								579,
+								581
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 254.0
+	},
+	"pinned_build_system": "",
+	"project": "cakephp3test.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"submit",
+				"app\\View\\Games\\submit_score.ctp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 372.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
